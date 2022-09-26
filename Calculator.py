@@ -13,7 +13,8 @@ if(choose == "Subtract"):
     print(f"{Input1-Input2}")
 
 if(choose == "Divide"):
-    print(f"{Input1 % Input2}")
+    print("Quotient: " + f"{Input1 // Input2}")
+    print("Remainder: " +  f"{Input1 % Input2}")
 
 if(choose == "Multiply"):
     print(f"{Input1 * Input2}")
